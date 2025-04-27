@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    font-family: "Ubuntu";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+.fullscreen-bg {
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav .left{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 8%;
+
+}
+
+nav .left img{
+    border-radius: 100%;
+    width: 70%;
+    margin: 0px 20px;
+}
+
+nav .mid{
+    display: inline-block;
+    width: 55%;
+    position: absolute;
+    top: 30px;
+    right: 35%;
+    
+}
+
+nav .right{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    
+}
+
+nav .mid ul{
+    overflow: auto;
+}
+
+nav .mid ul li{
+    float: left;
+    list-style: none;
+    margin: 5px 30px;
+}
+
+nav .mid a{
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(192, 192, 192);
+    font-weight: bold;
+    font-size: 21px;
+}
+
+nav .mid a:hover{
+    color: rgb(212, 147, 255);
+    font-weight: bolder;
+}
+
+.btn{
+    margin: 0px 10px;
+    border-radius: 100%;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    font-family: "Ubuntu";
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    font-family: "Ubuntu";
+    font-weight: 500;
+}
+
+.main{
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 9%;
+    font-weight: bold;
+    color: white;
+}
+
+.main h2{
+    font-style: oblique;
+    font-size: 50px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.main p{
+    font-style: normal;
+    font-size: 20px;
+}
